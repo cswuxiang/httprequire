@@ -95,4 +95,4 @@ var httprequire = function(url,force,handler) {
     return handler ? _asyncRequire(url,force,handler) : _syncRequire(url,force);
 
 };
-exports.require = httprequire;
+exports.exports = httprequire;
